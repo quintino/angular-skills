@@ -1,0 +1,8 @@
+.cardList {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.cardList > *:not(:last-child) {
+    margin-bottom: 32px;
+}
